@@ -1,0 +1,62 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Users",
+    "collectionId": "91525b2b-329d-4a51-8090-d98df7724ae8",
+    "dateExported": "2024-09-01T20:47:44.307Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ce3ae9ce-5229-4253-8566-b3dae31145e5",
+            "colId": "91525b2b-329d-4a51-8090-d98df7724ae8",
+            "containerId": "",
+            "name": "Register",
+            "url": "http://localhost:5001/api/users/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-01T20:47:07.274Z",
+            "modified": "2024-09-01T20:47:07.274Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\":\"mohamedali\",\n  \"email\":\"mohamedali24@gmail.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "37f70ee4-98b9-433f-bd30-8d3a01cd10e8",
+            "colId": "91525b2b-329d-4a51-8090-d98df7724ae8",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost:5001/api/users/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-09-01T20:47:14.603Z",
+            "modified": "2024-09-01T20:47:14.603Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"mohamedali24@gmail.com\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "cd17650d-97c4-4b41-b91f-0181bc82c19c",
+            "colId": "91525b2b-329d-4a51-8090-d98df7724ae8",
+            "containerId": "",
+            "name": "Current",
+            "url": "http://localhost:5001/api/users/current",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-09-01T20:47:19.795Z",
+            "modified": "2024-09-01T20:47:19.795Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoibW9oYW1lZGFsaSIsImVtYWlsIjoibW9oYW1lZGFsaTI0QGdtYWlsLmNvbSIsImlkIjoiNjZkNGM4NzUyMmRjZDYyZGI3ZDdjNDAzIn0sImlhdCI6MTcyNTIyMTAwMCwiZXhwIjoxNzI1MjIyODAwfQ.5MmkH6YuPEBbG9ik6JUrNgsbabOVNm-Yt7TCpnMkCjQ"
+                }
+            ]
+        }
+    ],
+    "ref": "mRnr7D-twOW71yEKqpP3VKX5y_COCf5_WJPYLdPcV3-KGmoZHmO4TdN0Xg3hkZkb3UUv9TBCFouDgQo0753s5A"
+}

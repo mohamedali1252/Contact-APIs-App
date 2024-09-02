@@ -1,0 +1,122 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Contacts",
+    "collectionId": "17338292-d220-404b-84a4-fceb283a35da",
+    "dateExported": "2024-09-01T20:47:28.220Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c62b68a2-c768-4de5-9f0a-8d421328af13",
+            "colId": "17338292-d220-404b-84a4-fceb283a35da",
+            "containerId": "",
+            "name": "Delete Contact",
+            "url": "http://localhost:5001/api/contacts/{id}",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-09-01T20:45:33.547Z",
+            "modified": "2024-09-01T20:45:33.547Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoibW9oYW1lZGFsaSIsImVtYWlsIjoibW9oYW1lZGFsaTI0QGdtYWlsLmNvbSIsImlkIjoiNjZkNGM4NzUyMmRjZDYyZGI3ZDdjNDAzIn0sImlhdCI6MTcyNTIyMjQyMywiZXhwIjoxNzI1MjI0MjIzfQ.yLZom4yl7gUqAfhTPbTGAuOdGg2UwB1o7nxX_8IXJAU"
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "",
+                    "isPath": true
+                }
+            ]
+        },
+        {
+            "_id": "9e028793-76ff-4a3a-a373-f7611bd7bb4c",
+            "colId": "17338292-d220-404b-84a4-fceb283a35da",
+            "containerId": "",
+            "name": "Update Contact",
+            "url": "http://localhost:5001/api/contacts/{id}",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-09-01T20:45:45.200Z",
+            "modified": "2024-09-01T20:45:45.200Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoibW9oYW1lZGFsaSIsImVtYWlsIjoibW9oYW1lZGFsaTI0QGdtYWlsLmNvbSIsImlkIjoiNjZkNGM4NzUyMmRjZDYyZGI3ZDdjNDAzIn0sImlhdCI6MTcyNTIyMjQyMywiZXhwIjoxNzI1MjI0MjIzfQ.yLZom4yl7gUqAfhTPbTGAuOdGg2UwB1o7nxX_8IXJAU"
+                }
+            ],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "",
+                    "isPath": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"updated\",\n  \"email\":\"updated\",\n  \"phone\":\"0112233986\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a1f6d490-ddfe-4b37-8695-a4e395093fc9",
+            "colId": "17338292-d220-404b-84a4-fceb283a35da",
+            "containerId": "",
+            "name": "Create Contact",
+            "url": "http://localhost:5001/api/contacts/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-09-01T20:45:52.955Z",
+            "modified": "2024-09-01T20:45:52.955Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoibW9oYW1lZGFsaSIsImVtYWlsIjoibW9oYW1lZGFsaTI0QGdtYWlsLmNvbSIsImlkIjoiNjZkNGM4NzUyMmRjZDYyZGI3ZDdjNDAzIn0sImlhdCI6MTcyNTIyMjQyMywiZXhwIjoxNzI1MjI0MjIzfQ.yLZom4yl7gUqAfhTPbTGAuOdGg2UwB1o7nxX_8IXJAU"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Mo Ali\",\n  \"email\":\"mohamedali25@gmail.com\",\n  \"phone\":\"01111122324\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "fc5d92b5-3ecb-4768-95d0-362467df0987",
+            "colId": "17338292-d220-404b-84a4-fceb283a35da",
+            "containerId": "",
+            "name": "Get All contacts",
+            "url": "http://localhost:5001/api/contacts/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-09-01T20:45:59.540Z",
+            "modified": "2024-09-01T20:45:59.540Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoibW9oYW1lZGFsaSIsImVtYWlsIjoibW9oYW1lZGFsaTI0QGdtYWlsLmNvbSIsImlkIjoiNjZkNGM4NzUyMmRjZDYyZGI3ZDdjNDAzIn0sImlhdCI6MTcyNTIyMjQyMywiZXhwIjoxNzI1MjI0MjIzfQ.yLZom4yl7gUqAfhTPbTGAuOdGg2UwB1o7nxX_8IXJAU"
+                }
+            ]
+        },
+        {
+            "_id": "669f0b4b-76be-4e10-8f88-2eb8fe5ae4ec",
+            "colId": "17338292-d220-404b-84a4-fceb283a35da",
+            "containerId": "",
+            "name": "Get Contact By ID",
+            "url": "http://localhost:5001/api/contacts/{id}",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-09-01T20:46:36.860Z",
+            "modified": "2024-09-01T20:46:36.860Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "",
+                    "isPath": true
+                }
+            ]
+        }
+    ],
+    "ref": "Qz-AcwGrw013rr0mT2gFYi-NohwzgEfp2LP_mSjVj_fU-KesHpFutOqeSA1RPCibpjN8WWoMqniiRngHOyICEQ"
+}
