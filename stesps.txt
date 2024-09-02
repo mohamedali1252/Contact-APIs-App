@@ -1,0 +1,18 @@
+npm init
+touch .gitignore
+touch server.js
+npm install express
+npm i -D nodemon
+edit package.json to start server with nodemon
+to run the server we will type: npm run dev
+touch .env
+npm i dotenv
+
+
+we won't put all the routes in the server.js file, so we will put the routes on the routes folder
+we will create controllers which will have the logic of the functions in routes
+
+npm i express-async-handler //to handle the async errors so if any error happens it will take it to the error handler
+
+
+npm i mongoose //to connect to the database
